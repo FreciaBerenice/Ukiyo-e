@@ -1,0 +1,2691 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  background-color: #ECE2C6;
+}
+
+
+.v34_312 {
+  width: 222px;
+  height: 47px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 195px;
+  left: 490px;
+  font-family: Ubuntu Mono;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+  background: rgba(255,219,99,1);
+  opacity: 0.8999999761581421;
+  border: 2px solid rgba(0,0,0,1);
+  border-radius: 9px;
+  overflow: hidden;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.v34_313 {
+  width: 224px;
+  height: 47px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 195px;
+  left: 760px;
+  font-family: Ubuntu Mono;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+  background: rgba(223,52,21,1);
+  opacity: 0.8999999761581421;
+  border: 2px solid rgba(0,0,0,1);
+  border-radius: 9px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+/* ACÁ EMPIEZAN LOS ESTILOS DEL MENÚ */
+  .offcanvas-body {
+    background-color: #039253;
+    font-family: Ubuntu Mono;
+  }
+
+  .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: rgba(255, 219, 99, 1);
+    font-size: 24px;
+    
+}
+
+
+.offcanvas-header {
+  font-family: Ubuntu Mono;
+  color: black;
+  background-color: #039253;
+  font-size: 44px;
+  
+}
+.offcanvas-title {
+  font-size: 44px;
+}
+
+.offcanvas-header .btn-close {
+  border: solid black;
+  border-radius: 40px;
+ 
+}
+
+.formMenu {
+  border: 1px solid #DF3415;
+  border-radius: 12px;
+  font-family: Ubuntu Mono;
+  color: #DF3415;
+  background-color: #FFE8A3;
+  padding: 15px;
+  margin-top: 55px;
+  margin-left: 75px;
+  align-items: center;
+  font-size: 20px;
+  font-weight:bolder;
+}
+
+
+  
+/* ESTE ES EL TÍTULO GRANDE DE HOME */
+
+.v34_531 {
+  width: 883px;
+  position: absolute;
+  top: 458px;
+  left: 279px;
+  font-family: Fredericka the Great;
+  font-weight: Regular;
+  font-size: 48px;
+  opacity: 1;
+  text-align: center;
+  color: rgba(223,52,21,1);
+}
+.v34_532 {
+  width: 673px;
+  position: absolute;
+  top: 318px;
+  left: 384px;
+  font-family: Abhaya Libre ExtraBold;
+  font-weight: Regular;
+  font-size: 96px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v34_566 {
+  width: 191px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 2879px;
+  left: 377px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v34_533 {
+  width: 678px;
+  position: absolute;
+  top: 523px;
+  left: 382px;
+  font-family: Abhaya Libre ExtraBold;
+  font-weight: Regular;
+  font-size: 96px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v34_597 {
+  width: 152px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 2930px;
+  left: 947px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+
+/* ACÁ TERMINA EL TITULO GRANDE DE LA HOME */
+
+/* párrafo uno empieza */
+.v34_272 {
+  width: 866px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 1360px;
+  left: 287px;
+  font-family: Ubuntu Mono;
+  font-weight: Regular;
+  font-size: 40px;
+  opacity: 1;
+  text-align: center;
+}
+
+/* ACÁ EMPIEZAN LAS IMÁGENES DE LA HOME */
+
+.containerindex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: absolute;
+  top: 560px;
+  left: 490px;
+}
+
+
+.collage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 312px;
+  
+}
+
+.row {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.image-wrapper {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(4, 78, 236, 0.3);
+  animation: floating 4s infinite alternate ease-in-out;
+}
+
+.image-wrapper5 {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(4, 78, 236, 0.3);
+  animation: floating 4s infinite alternate ease-in-out;
+}
+.image-wrapper4 {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(4, 78, 236, 0.3);
+  animation: floating 4s infinite alternate ease-in-out;
+}
+.image-wrapper3 {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(4, 78, 236, 0.3);
+  animation: floating 4s infinite alternate ease-in-out;
+}
+
+@keyframes floating {
+  from {
+    transform: translate(-50%, -50%) translateY(0); /* Posición inicial */
+  }
+  to {
+    transform: translate(-50%, -50%) translateY(-20px); /* Posición final */
+  }
+}
+
+
+
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* AQUÍ EMPIEZA LA SECCIÓN MOVIEMIENTO */
+
+.v46_128 {
+  width: 1348px;
+  height: 170%;
+  background: rgba(117,209,244,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 1px;
+  overflow: hidden;
+}
+
+.v139_2 {
+  width: 257px;
+  color: rgba(2,62,181,1);
+  position: absolute;
+  top: 321px;
+  left: 597px;
+  font-family: Abhaya Libre ExtraBold;
+  font-weight: Regular;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v46_176 {
+  width: 290px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 81px;
+  left: -25px;
+  font-family: Abhaya Libre ExtraBold;
+  font-weight: Regular;
+  font-size: 48px;
+  opacity: 1;
+  text-align: left;
+}
+
+
+.v46_178 {
+  width: 450px;
+  height: 450px;
+  background: rgba(255,219,99,1);
+  opacity: 1;
+  position: absolute;
+  top: 1228px;
+  left: 64px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 100px;
+  animation: colorChange 5s infinite alternate, rotate 9s linear infinite;
+}
+
+@keyframes colorChange {
+  from {
+    background-color: rgba(255, 219, 99, 1);
+    
+  }
+  to {
+    background-color: rgba(99, 255, 219, 1);
+  }
+
+}
+@keyframes rotate {
+  from {
+    transform: rotate(6deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.v46_180 {
+  width: 360px;
+  color: rgba(33, 33, 33, 1);
+  position: absolute;
+  position: absolute;
+  top: 1289px;
+  left: 138px;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+  font-family: Ubuntu Mono;
+ 
+}
+
+
+.img55 {
+  position: absolute;
+  top: 1140px;
+  left: 217px;
+  width: 954px;
+  height: 472;
+}
+
+.v46_173 {
+  width:86%;
+  height: 898px;
+  background: rgba(255, 232, 163, 1);
+  opacity: 1;
+  position: absolute;
+  top: 1824px;
+  left: 100px;
+  border-top-left-radius: 180px;
+  border-top-right-radius: 180px;
+  border-bottom-left-radius: 180px;
+  border-bottom-right-radius: 180px;
+  overflow: hidden;
+}
+
+.v46_174 {
+  width: 548px;
+  color: rgba(33, 33, 33, 1);
+  position: absolute;
+  top: 1937px;
+  left: 186px;
+  font-family: Ubuntu Mono;;
+  font-weight: Regular;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+.v46_175 {
+  width: 621px;
+  color: rgba(223, 52, 21, 1);
+  position: absolute;
+  top: 1751px;
+  left: 391px;
+  font-family: Abhaya Libre ExtraBold;
+  font-weight: Regular;
+  font-size: 96px;
+  opacity: 1;
+  text-align: left;
+}
+.v46_327 {
+  width: 274px;
+  height: 362px;
+  background: url(./images/imagen7.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2014px;
+  left: 773px;
+  border: 1px solid rgba(0, 0, 0, 1);
+  border-top-left-radius: 700px;
+  border-top-right-radius: 700px;
+  border-bottom-left-radius: 700px;
+  border-bottom-right-radius: 700px;
+  overflow: hidden;
+}
+
+.containermov {
+  width: 400px; /* Ancho del contenedor */
+  height: 300px; /* Alto del contenedor */
+  position: relative; 
+  left: 500px;
+}
+
+.floating-image {
+  width: 900px; /* Ancho de la imagen */
+  height: auto; /* Altura automática para mantener la proporción */
+  position: absolute; /* Posición absoluta para que se pueda flotar */
+  top: 720px; /* Alinear en la mitad superior del contenedor */
+  left: 230px; /* Alinear en la mitad izquierda del contenedor */
+  transform: translate(-50%, -50%); /* Centrar la imagen */
+  animation: floatAnimation 3s infinite alternate; /* Animación de flotación */
+}
+.v46_189 {
+  width: 186px;
+  height: 186px;
+  background: rgba(255,79,47,1);
+  opacity: 1;
+  position: absolute;
+  top: 635px;
+  left: 316px;
+  border-radius: 50%;
+}
+.v46_190 {
+  width: 149px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 681px;
+  left: 335px;
+  font-family: Ubuntu Mono;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+
+@keyframes floatAnimation {
+  from {
+    transform: translate(-50%, -50%) translateY(0); /* Posición inicial */
+  }
+  to {
+    transform: translate(-50%, -50%) translateY(-20px); /* Posición final */
+  }
+}
+
+
+/* ACÁ EMPIEZAN LOS TEXTOS CON FONDO AMARILLO, SEGUIMOS EN LA HOME */
+
+.v34_354 {
+  width: 585px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 3565px;
+  left: 122px;
+  font-family: Ubuntu Mono;
+  font-weight: Regular;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v34_355 {
+  width: 751px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 4852px;
+  left: 352px;
+  font-family: Ubuntu Mono;
+  font-weight: Regular;
+  font-size: 40px;
+  opacity: 1;
+  text-align: center;
+}
+.v34_356 {
+  width: 574px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 2154px;
+  left: 433px;
+  font-family: Ubuntu Mono;
+  font-weight: Bold;
+  font-size: 64px;
+  opacity: 1;
+  text-align: center;
+}
+.name {
+  color: #fff;
+}
+.v34_361 {
+  width: 183px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 3489px;
+  left: 122px;
+  font-family: Ubuntu Mono;
+  font-weight: Bold;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+.v34_363 {
+  width: 378px;
+  height: 201px;
+  background: rgba(2,62,181,1);
+  opacity: 1;
+  position: absolute;
+  top: 4057px;
+  left: 557px;
+  border-radius: 50%;
+}
+.v34_364 {
+  width: 539px;
+  height: 18px;
+  background: rgba(2,62,181,1);
+  opacity: 1;
+  position: absolute;
+  top: 4150px;
+  left: 810px;
+  overflow: hidden;
+}
+.v34_365 {
+  width: 288px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 4278px;
+  left: 593px;
+  font-family: Ubuntu Mono;
+  font-weight: Bold;
+  font-size: 40px;
+  opacity: 1;
+  text-align: right;
+}
+.v34_397 {
+  width: 256px;
+  color: black;
+  position: absolute;
+  top: 4117px;
+  left: 628px;
+  font-family: Roboto;
+  font-weight: ExtraBold;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+.v34_395 {
+  width: 309px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 3079px;
+  left: 428px;
+  font-family: Ubuntu Mono;
+  font-weight: Bold;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+.v34_394 {
+  width: 236px;
+  color: url("../images/v34_394.png");
+  position: absolute;
+  top: 3088px;
+  left: 777px;
+  font-family: Roboto;
+  font-weight: ExtraBold;
+  font-size: 58px;
+  opacity: 1;
+  text-align: left;
+  color: #023EB6;
+}
+.v34_396 {
+  width: 196px;
+  color: url("../images/v34_396.png");
+  position: absolute;
+  top: 3380px;
+  left: 139px;
+  font-family: Roboto;
+  font-weight: ExtraBold;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+.v34_273 {
+  width: 100%;
+  height: 600%;
+  background: rgba(255,219,99,1);
+  opacity: 1;
+  position: absolute;
+  top: 1968px;
+  left: 0px;
+  border-top-left-radius: 599px;
+  border-top-right-radius: 599px;
+  border-bottom-left-radius: 599px;
+  border-bottom-right-radius: 599px;
+  overflow: hidden;
+}
+
+.img6 {
+  position: absolute;
+  right: -110px;
+  top: 150px;
+}
+.img7 {
+  margin-left: 400px;
+  margin-top: 100px;
+}
+.img8 {
+  margin-left: -350px;
+}
+
+
+/* ACÁ COMIENZA EL FOOTER */
+
+.v34_275 {
+  width: 100%;
+  height: 625px;
+  background: rgba(255,79,47,1);
+  opacity: 1;
+  position: absolute;
+  top: 5655px;
+  left: 0px;
+  overflow: hidden;
+}
+.v34_276 {
+  width: 566px;
+  color: rgba(31,40,76,1);
+  position: absolute;
+  top: 5933px;
+  left: 109px;
+  font-family: Ubuntu Mono;
+  font-weight: Bold;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v34_279 {
+  width: 466px;
+  height: 97px;
+  color: rgba(31,40,76,1);
+  position: absolute;
+  background-color: rgba(255,219,99,1);
+  border-radius: 71px;
+  top: 6012px;
+  left: 852px;
+  font-family: Ubuntu Mono;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+  overflow:hidden ;
+  text-decoration: none;
+  padding: 25px;
+}
+
+.imgFooter {
+  margin: 55px;
+  margin-left: 555px;
+}
+
+
+/*ACÁ PONDRÉ LOS ESTILOS DEL FORMULARIO */
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  }
+
+.popup-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.popup h2 {
+  margin-bottom: 20px;
+}
+
+
+.submitBtn {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#closeMessageBtn {
+  padding: 10px 20px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#openBtn:hover, .submitBtn:hover, #closeMessageBtn:hover {
+  opacity: 0.8;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.closeBtn:hover {
+  color: #ff0000;
+}
+
+/* ACÁ EMPIEZA LA SECCIÓN ARTISTAS */
+
+.fondoartistas {
+  width: 1348px;
+  height: 170%;
+  background: #FFE8A3;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 1px;
+  overflow: hidden;
+
+}
+ 
+.cont-artistas {
+  width: 486px;
+  position: absolute;
+  top: 620px;
+  left: 502px; 
+  font-size: 48px;
+  text-align: center;
+  
+}
+
+.artistas-sec {
+  text-decoration: none;
+  color: #023EB6;
+  font-family: Ubuntu Mono;
+}
+
+.artistas-sec:hover {
+  background-color: #DF3415; 
+  color: #FFFFFF;
+}
+
+.flecha-up{
+  width: 486px;
+  position: absolute;
+  top: 443px;
+  left: 997px; 
+  font-size: 60px;
+  text-align: center;
+  text-decoration: none;
+  color: #ff0000;
+  font-family: Ubuntu Mono;
+  position: fixed;
+  z-index: 9999;
+  
+}
+
+.v46_393 {
+  width: 380px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 443px;
+  left: 557px;
+  font-family: Ubuntu Mono;
+  font-weight: ExtraBold;
+  font-size: 48px;
+  opacity: 1;
+  text-align: center;
+}
+.v169_8 {
+  width: 560px;
+  color: rgba(223,52,21,1);
+  position: absolute;
+  top: 359px;
+  left: 467px;
+  font-family: Abhaya Libre;
+  font-weight: Bold;
+  font-size: 64px;
+  opacity: 1;
+  text-align: center;
+}
+.v46_422 {
+  width: 80%;
+ height: 344%;
+  background: rgba(255,232,163,1);
+  opacity: 1;
+  position: absolute;
+  top: 1909px;
+  left: 178px;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  overflow: hidden;
+}
+.v46_423 {
+  width: 80%;
+  height: 336%;
+  background: rgba(198,162,121,1);
+  opacity: 1;
+  position: absolute;
+  top: 4012px;
+  left: 176px;
+  overflow: hidden;
+}
+.v46_424 {
+  width: 924px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 4722px;
+  left: 260px;
+  font-family: Ubuntu Mono;
+  font-weight: Regular;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+.v46_425 {
+ 
+  width: 924px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 2059px;
+  left: 284px;
+  font-family: Ubuntu Mono;
+  font-weight: Regular;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v46_426 {
+  width: 692px;
+  height: 154px;
+  background: rgba(255,79,47,1);
+  opacity: 1;
+  position: absolute;
+  top: 1834px;
+  left: 362px;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  overflow: hidden;
+}
+.v46_427 {
+  width: 567px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 1859px;
+    left: 438px;
+    font-family: Ubuntu Mono;
+    font-weight: Regular;
+    font-size: 63px;
+    opacity: 1;
+    text-align: left;
+}
+.v46_453 {
+  width: 470px;
+  height: 470px;
+  background: rgba(255,79,47,1);
+  opacity: 1;
+  position: absolute;
+  top: 4168px;
+  left: 206px;
+  border-radius: 50%;
+}
+.v46_454 {
+  width: 287px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 4294px;
+  left: 298px;
+  font-family: Ubuntu Mono;
+  font-weight: Regular;
+  font-size: 64px;
+  opacity: 1;
+  text-align: center;
+}
+.v46_490 {
+  width: 90%;
+  height: 584px;
+  background: url("./images/image\ 23.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1100px;
+  left: 122px;
+  overflow: hidden;
+}
+.v46_492 {
+  width: 945px;
+  height: 630px;
+  background: url("./images/image\ 19.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 2437px;
+  left: 248px;
+  overflow: hidden;
+}
+.v46_494 {
+  width: 943px;
+  height: 688px;
+  background: url("./images/image\ 56.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 3160px;
+  left: 249px;
+  overflow: hidden;
+}
+.v46_496 {
+  width: 394px;
+  height: 600px;
+  background: url("./images/image\ 57.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 5352px;
+  left: 244px;
+  overflow: hidden;
+}
+.v46_498 {
+  width: 401px;
+  height: 600px;
+  background: url("./images/image\ 58.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 5352px;
+  left: 796px;
+  overflow: hidden;
+}
+.v46_500 {
+  width: 400px;
+  height: 597px;
+  background: url("./images/image\ 59.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 4074px;
+  left: 730px;
+  overflow: hidden;
+}
+
+.tori-1 {
+  width: 692px;
+  height: 154px;
+  background: #039253;
+  opacity: 1;
+  position: absolute;
+  top: 6090px;
+  left: 362px;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.tori-2 {
+  width: 567px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 6119px;
+  left: 502px;
+  font-family: Ubuntu Mono;
+  font-weight: Regular;
+  font-size: 63px;
+  opacity: 1;
+  text-align: left;
+  z-index: 1;
+}
+
+.tori-3 {
+  width: 924px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 6339px;
+  left: 284px;
+  font-family: Ubuntu Mono;
+  font-weight: Regular;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+  z-index: 1;
+}
+
+.tori-4 {
+  width: 80%;
+  height: 369%;
+  background: #FFDB63;
+  opacity: 1;
+  position: absolute;
+  top: 6164px;
+  left: 178px;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  overflow: hidden;
+}
+
+.tori-5 {
+  width: 945px;
+  height: 630px;
+  background: url("./images/image\ 60.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 6730px;
+  left: 248px;
+  overflow: hidden;
+  z-index: 1 ;
+}
+
+.tori-6 {
+  width: 654px;
+  height: 918px;
+  background: url("./images/image\ 61.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 7391px;
+  left: 402px;
+  overflow: hidden;
+}
+
+.kuni-1 {
+  width: 80%;
+  height: 329%;
+  background: #FF5030;
+  opacity: 1;
+  position: absolute;
+  top: 8501px;
+  left: 176px;
+  overflow: hidden;
+}
+
+.kuni-2 {
+  width: 470px;
+  height: 470px;
+  background:#FFE8A3;
+  opacity: 1;
+  position: absolute;
+  top: 8634px;
+  left: 206px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.kuni-3 {
+  width: 287px;
+  color: black;
+  position: absolute;
+  top: 8764px;
+  left: 298px;
+  font-family: Ubuntu Mono;
+  font-weight: Regular;
+  font-size: 64px;
+  opacity: 1;
+  text-align: center;
+  z-index: 1;
+}
+
+.kuni-4 {
+  width: 400px;
+  height: 597px;
+  background: url("./images/image\ 62.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 8602px;
+  left: 730px;
+  overflow: hidden;
+}
+
+.kuni-5 {
+  width: 924px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 9237px;
+  left: 260px;
+  font-family: Ubuntu Mono;
+  font-weight: Regular;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+  z-index: 1;
+}
+
+.kuni-6 {
+  width: 394px;
+  height: 600px;
+  background: url("./images/image\ 63.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 9772px;
+  left: 244px;
+  overflow: hidden;
+}
+
+.kuni-7 {
+  width: 401px;
+  height: 600px;
+  background: url("./images/image\ 64.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 9772px;
+  left: 796px;
+  overflow: hidden;
+}
+
+/* ACÁ EMPIEZA LA SECCIÓN OBRAS! */
+
+.v46_559 {
+  width: 90%;
+  height: 578%;
+  background: rgba(255, 219, 99, 1);
+  opacity: 1;
+  position: absolute;
+  top: 1595px;
+  left: 94px;
+  border-top-left-radius: 500px;
+  border-top-right-radius: 500px;
+  border-bottom-left-radius: 500px;
+  border-bottom-right-radius: 500px;
+  overflow: hidden;
+}
+
+
+.v46_565 {
+  width: 296px;
+  height: 466px;
+  background: #FF5030;
+  opacity: 1;
+  position: absolute;
+  top: 335px;
+  left: 350px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  overflow: hidden;
+  animation: floating-or1 3s ease-in-out infinite;
+}
+@keyframes floating-or1 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px); /* Ajusta la altura de la flotación */
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.v46_566 {
+  width: 296px;
+  height: 466px;
+  background: url(./images/image\ 67.png);
+  opacity: 1;
+  position: absolute;
+  top: 344px;
+  left: 363px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  overflow: hidden;
+}
+.v46_572 {
+  width: 296px;
+  height: 466px;
+  background: #FF5030;
+  opacity: 1;
+  position: absolute;
+  top: 374px;
+  left: 27px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  overflow: hidden;
+  animation: floating-or 3s ease-in-out infinite;
+}
+@keyframes floating-or {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); /* Ajusta la altura de la flotación */
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.v46_573 {
+  width: 296px;
+  height: 466px;
+  background: url(./images/image\ 66.png);
+  opacity: 1;
+  position: absolute;
+  top: 384px;
+  left: 41px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  overflow: hidden;
+}
+.v46_579 {
+  width: 296px;
+  height: 466px;
+  background: #FF5030;
+  opacity: 1;
+  position: absolute;
+  top: 374px;
+  left: 672px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  overflow: hidden;
+  animation: floating-or 3s ease-in-out infinite;
+}
+.v46_580 {
+  width: 296px;
+  height: 466px;
+  background: url(./images/image\ 68.png);
+  opacity: 1;
+  position: absolute;
+  top: 384px;
+  left: 686px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  overflow: hidden;
+}
+.v46_586 {
+  width: 296px;
+  height: 466px;
+  background: #FF5030;
+  opacity: 1;
+  position: absolute;
+  top: 335px;
+  left: 999px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  overflow: hidden;
+  animation: floating-or1 3s ease-in-out infinite;
+}
+.v46_587 {
+  width: 296px;
+  height: 466px;
+  background: url(./images/image\ 69.png);
+  opacity: 1;
+  position: absolute;
+  top: 344px;
+  left: 1013px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  overflow: hidden;
+}
+.v46_603 {
+  width: 561px;
+  height: 557px;
+  background: url(./images/Rectangle\ 45.png);
+  opacity: 1;
+  position: absolute;
+  top: 2010px;
+  left: 438px;
+  overflow: hidden;
+}
+.top-1 {
+  top: 2574px;
+  position: absolute;
+  left: 438px;
+  font-family: Ubuntu Mono;
+  font-size: 15px;
+}
+
+.v46_609 {
+  width: 561px;
+  height: 557px;
+  background: url(./images/Rectangle\ 44.png);
+  opacity: 1;
+  position: absolute;
+  top: 2637px;
+  left: 439px;
+  overflow: hidden;
+}
+
+.top-2 {
+  top: 3201px;
+  position: absolute;
+  left: 438px;
+  font-family: Ubuntu Mono;
+  font-size: 15px;
+}
+
+
+.v46_615 {
+  width: 561px;
+  height: 557px;
+  background: url(./images/Rectangle\ 37.png);
+  opacity: 1;
+  position: absolute;
+  top: 3265px;
+  left: 439px;
+  overflow: hidden;
+}
+
+.top-3 {
+  top: 3829px;
+  position: absolute;
+  left: 438px;
+  font-family: Ubuntu Mono;
+  font-size: 15px;
+}
+
+.v46_621 {
+  width: 366px;
+  height: 363px;
+  background: url(./images/Rectangle\ 37.png);
+  opacity: 1;
+  position: absolute;
+  top: 3893px;
+  left: 339px;
+  overflow: hidden;
+}
+
+.top-4 {
+  top: 4263px;
+  position: absolute;
+  left: 338px;
+  font-family: Ubuntu Mono;
+  font-size: 13px;
+}
+
+.v46_627 {
+  width: 366px;
+  height: 363px;
+  background: url(./images/Rectangle\ 39.png);
+  opacity: 1;
+  position: absolute;
+  top: 4327px;
+  left: 339px;
+  overflow: hidden;
+}
+.top-6 {
+  top: 4697px;
+  position: absolute;
+  left: 341px;
+  font-family: Ubuntu Mono;
+  font-size: 13px;
+}
+
+
+.v46_633 {
+  width: 202px;
+  height: 200px;
+  background: url(./images/Rectangle\ 41.png);
+  opacity: 1;
+  position: absolute;
+  top: 4761px;
+  left: 339px;
+  overflow: hidden;
+}
+.top-8 {
+  top: 4963px;
+  position: absolute;
+  left: 340px;
+  font-family: Ubuntu Mono;
+  font-size: 9px;
+}
+
+.v46_639 {
+  width: 202px;
+  height: 200px;
+  background: url(./images/Rectangle\ 42.png);
+  opacity: 1;
+  position: absolute;
+  top: 4761px;
+  left: 617px;
+  overflow: hidden;
+}
+.top-9 {
+  top: 4963px;
+  position: absolute;
+  left: 616px;
+  font-family: Ubuntu Mono;
+  font-size: 9px;
+}
+
+.v46_645 {
+  width: 202px;
+  height: 200px;
+  background: url(./images/Rectangle\ 43.png);
+  opacity: 1;
+  position: absolute;
+  top: 4761px;
+  left: 898px;
+  overflow: hidden;
+}
+.top-10 {
+  top: 4963px;
+  position: absolute;
+  left: 896px;
+  font-family: Ubuntu Mono;
+  font-size: 9px;
+}
+
+
+.v46_651 {
+  width: 366px;
+  height: 363px;
+  background: url(./images/Rectangle\ 38.png);
+  opacity: 1;
+  position: absolute;
+  top: 3893px;
+  left: 734px;
+  overflow: hidden;
+}
+
+.top-5 {
+  top: 4263px;
+  position: absolute;
+  left: 734px;
+  font-family: Ubuntu Mono;
+  font-size: 13px;
+}
+ 
+
+.v46_657 {
+  width: 366px;
+  height: 363px;
+  background: url(./images/Rectangle\ 40.png);
+  opacity: 1;
+  position: absolute;
+  top: 4327px;
+  left: 734px;
+  overflow: hidden;
+}
+.top-7 {
+  top: 4697px;
+  position: absolute;
+  left: 734px;
+  font-family: Ubuntu Mono;
+  font-size: 13px;
+}
+
+.v201_28 {
+  width: 524px;
+  height: 828px;
+  background: url(./images/top10.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 994px;
+  left: 458px;
+  overflow: hidden;
+}
+
+/* ACÁ EMPIEZA LA SECCIÓN TÉCNICA! */
+
+.v26_1288 {
+  width: 100%;
+  height: 607px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v26_1289 {
+  width: 100%;
+  height: 738px;
+  background: rgba(3,145,83,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v214_48 {
+  width: 167px;
+  color: rgba(255,219,99,1);
+  position: absolute;
+  top: 262px;
+  left: 639px;
+  font-family: Abhaya Libre;
+  font-weight: Bold;
+  font-size: 64px;
+  opacity: 1;
+  text-align: center;
+}
+.v26_1313 {
+  width: 173px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 344px;
+  left: 636px;
+  font-family: Abhaya Libre;
+  font-weight: Bold;
+  font-size: 48px;
+  opacity: 1;
+  text-align: left;
+}
+.name {
+  color: #fff;
+}
+.v26_1317 {
+  width: 860px;
+  height: 116px;
+  background: rgba(255,219,99,1);
+  opacity: 1;
+  position: absolute;
+  top: 2534px;
+  left: 315px;
+  border: 1px solid rgba(81,80,80,1);
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  overflow: hidden;
+}
+.v26_1318 {
+  width: 860px;
+  height: 116px;
+  background: rgba(255,232,163,1);
+  opacity: 1;
+  position: absolute;
+  top: 2691px;
+    left: 319px;
+  border: 1px solid rgba(81,80,80,1);
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  overflow: hidden;
+}
+.v26_1319 {
+  width: 860px;
+  height: 116px;
+  background: rgba(41,89,68,1);
+  opacity: 1;
+  position: absolute;
+  top: 2841px;
+  left: 319px;
+  border: 1px solid rgba(81,80,80,1);
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  overflow: hidden;
+}
+.v26_1320 {
+  width: 860px;
+  height: 115px;
+  background: rgba(3,145,83,1);
+  opacity: 1;
+  position: absolute;
+  top: 2994px;
+  left: 319px;
+  border: 1px solid rgba(81,80,80,1);
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  overflow: hidden;
+}
+.v26_1321 {
+  width: 244px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 805px;
+  left: 293px;
+  font-family: Abhaya Libre;
+  font-weight: Bold;
+  opacity: 1;
+  text-align: center;
+  font-size: 48px;
+  z-index: 1;
+}
+.v26_1323 {
+  width: 80%;
+  height: 100%;
+  background: url(./images/image\ 56.png);
+  position: absolute;
+  top: 777px;
+  left: 156px;
+
+}
+.v26_1328 {
+  width: 80%;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 1411px;
+  left: 150px;
+  font-family: Ubuntu Mono;
+  font-weight: Regular;
+  font-size: 40px;
+  opacity: 1;
+  text-align: center;
+}
+.v26_1329 {
+  width: 731px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 3182px;
+  left: 382px;
+  font-family: Ubuntu Mono;
+  font-weight: Regular;
+  font-size: 40px;
+  opacity: 1;
+  text-align: center;
+}
+.v26_1330 {
+  width: 221px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 2561px;
+  left: 655px;
+  font-family: Ubuntu Mono;
+  font-weight: Regular;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+.v26_1331 {
+  width: 220px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 2720px;
+  left: 655px;
+  font-family: Ubuntu Mono;
+  font-weight: Regular;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+.v26_1332 {
+  width: 220px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 2871px;
+  left: 655px;
+  font-family: Ubuntu Mono;
+  font-weight: Regular;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+.v26_1333 {
+  width: 220px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 3020px;
+  left: 655px;
+  font-family: Ubuntu Mono;
+  font-weight: Regular;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+.v26_1335 {
+  width: 376px;
+  height: 489px;
+  background: url(./images/image\ 61.png);
+  opacity: 1;
+  position: absolute;
+  top: 1878px;
+  left: 60px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.v26_1341 {
+  width: 376px;
+  height: 489px;
+  background: url(./images/image\ 62.png);
+  opacity: 1;
+  position: absolute;
+  top: 1909px;
+  left: 322px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.v26_1347 {
+  width: 376px;
+  height: 489px;
+  background: url(./images/image\ 63.png);
+  opacity: 1;
+  position: absolute;
+  top: 1852px;
+  left: 666px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  transform: rotate(-3deg);
+  overflow: hidden;
+}
+.v26_1382 {
+  width: 376px;
+  height: 489px;
+  background: url(./images/image\ 64.png);
+  opacity: 1;
+  position: absolute;
+  top: 1905px;
+  left: 945px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.v26_1353 {
+  width: 335px;
+  height: 332px;
+  background: url(./images/image\ 69.png);
+  opacity: 1;
+  position: absolute;
+  top: 3486px;
+  left: 122px;
+  overflow: hidden;
+}
+.v26_1359 {
+  width: 335px;
+  height: 332px;
+  background: url(./images/Rectangle\ 36.png);
+  opacity: 1;
+  position: absolute;
+  top: 3486px;
+  left: 552px;
+  overflow: hidden;
+}
+.v26_1365 {
+  width: 335px;
+  height: 332px;
+  background: url(./images/Rectangle\ 41.png);
+  opacity: 1;
+  position: absolute;
+  top: 3486px;
+  left: 982px;
+  overflow: hidden;
+}
+
+/* ACÁ EMPIEZA LA SECCIÓN TIENDA! */
+.fondo-tienda {
+  width: 90%;
+    height: 455px;
+    background: rgb(255, 219, 99);
+    opacity: 1;
+    position: absolute;
+    top: 487px;
+    left: 75px;
+    overflow: hidden;
+    border: solid black 1px;
+    border-radius: 100px;
+}
+
+.tienda-ja{
+  width: 167px;
+  color:#DF3415;
+  position: absolute;
+  top: 404px;
+  left: 639px;
+  font-family: Abhaya Libre;
+  font-weight: Bold;
+  font-size: 100px;
+  opacity: 1;
+  text-align: center;
+}
+
+.tienda-tienda {
+  width: 173px;
+  color: black;
+  position: absolute;
+  top: 524px;
+  left: 643px;
+  font-family: Abhaya Libre;
+  font-weight: Bold;
+  font-size: 56px;
+  opacity: 1;
+  text-align: left;
+}
+
+.tienda-conword1 {
+  width: 231px;
+    height: 54px;
+    background: #1F284C;
+    opacity: 1;
+    position: absolute;
+    top: 761px;
+    left: 119px;
+    border: 1px solid rgba(81, 80, 80, 1);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    overflow: hidden;
+}
+
+.tienda-word1 {
+  width: 221px;
+  color: white;
+  position: absolute;
+  top: 765px;
+  left: 132px;
+  font-family: Ubuntu Mono;
+  font-weight: Regular;
+  font-size: 30px;
+  opacity: 1;
+  text-align: center;
+}
+
+.tienda-conword2 {
+  width: 231px;
+    height: 54px;
+    background: #2D4472;
+    opacity: 1;
+    position: absolute;
+    top: 761px;
+    left: 424px;
+    border: 1px solid rgba(81, 80, 80, 1);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    overflow: hidden;
+}
+
+.tienda-word2 {
+  width: 221px;
+  color: black;
+  position: absolute;
+  top: 765px;
+  left: 433px;
+  font-family: Ubuntu Mono;
+  font-weight: Regular;
+  font-size: 30px;
+  opacity: 1;
+  text-align: center;
+}
+
+.tienda-conword3 {
+  width: 231px;
+    height: 54px;
+    background: #023EB6;
+    opacity: 1;
+    position: absolute;
+    top: 761px;
+    left: 727px;
+    border: 1px solid rgba(81, 80, 80, 1);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    overflow: hidden;
+}
+
+.tienda-word3 {
+  width: 221px;
+  color: white;
+  position: absolute;
+  top: 765px;
+  left: 736px;
+  font-family: Ubuntu Mono;
+  font-weight: Regular;
+  font-size: 30px;
+  opacity: 1;
+  text-align: center;
+}
+
+.tienda-conword4 {
+  width: 231px;
+    height: 54px;
+    background: #0099DB;
+    opacity: 1;
+    position: absolute;
+    top: 761px;
+    left: 1015px;
+    border: 1px solid rgba(81, 80, 80, 1);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    overflow: hidden;
+}
+
+.tienda-word4 {
+  width: 221px;
+  color: black;
+  position: absolute;
+  top: 765px;
+  left: 1027px;
+  font-family: Ubuntu Mono;
+  font-weight: Regular;
+  font-size: 30px;
+  opacity: 1;
+  text-align: center;
+}
+
+
+
+.fondo-ofe {
+  width: 90%;
+  height: 200%;
+  background: #75D1F4;
+  opacity: 1;
+  position: absolute;
+  top: 992px;
+  left: 94px;
+  border-radius: 200px;
+  overflow: hidden;
+}
+
+.tex-ofer {
+  width: 167px;
+  color:black;
+  position: absolute;
+  top:2202px;
+  left: 639px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 180px;
+  opacity: 1;
+  text-align: center;
+}
+
+.fondo-ofe-1 {
+  width: 90%;
+  height: 285%;
+  background: #FFDB63;
+  opacity: 1;
+  position: absolute;
+  top: 2338px;
+  left: 94px;
+  border-radius: 200px;
+  overflow: hidden;
+}
+
+.tex-prJa{
+  width: 167px;
+    color: white;
+    position: absolute;
+    top: 1035px;
+    left: 640px;
+    font-family: Roboto;
+    font-weight: Bold;
+    font-size: 34px;
+    opacity: 1;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color:  #023EB6;
+    border: solid  #023EB6;
+    border-radius: 40px;
+    z-index: 1;
+
+}
+
+.tex-prDes {
+  width: 167px;
+  color: black;
+  position: absolute;
+  top: 1084px;
+  left: 559px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 20px;
+  text-align: center;
+  padding-right: 224px;
+  padding-left: 105px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: #DF3415;
+  border: solid #DF3415;
+  border-radius: 40px;
+}
+
+.product-1 {
+  width: 202px;
+  height: 200px;
+  background: url(./images/Rectangle\ 41.png);
+  opacity: 1;
+  position: absolute;
+  top: 1202px;
+  left: 339px;
+  overflow: hidden;
+}
+
+.text-pro-1 {
+    top: 1408px;
+    position: absolute;
+    left: 340px;
+    font-family: Ubuntu Mono;
+    font-size: 15px;
+}
+
+.text-pro-1-1 {
+    top:1433px;
+    position: absolute;
+    left: 340px;
+    font-family: Ubuntu Mono;
+    font-size: 15px;
+}
+
+.product-2 {
+  width: 202px;
+  height: 200px;
+  background: url(./images/Rectangle\ 50.png);
+  opacity: 1;
+  position: absolute;
+  top: 1202px;
+  left: 646px;
+  overflow: hidden;
+}
+
+.text-pro-2 {
+    top: 1408px;
+    position: absolute;
+    left: 644px;
+    font-family: Ubuntu Mono;
+    font-size: 15px;
+}
+
+.text-pro-1-2 {
+    top:1433px;
+    position: absolute;
+    left: 644px;
+    font-family: Ubuntu Mono;
+    font-size: 15px;
+}
+
+.product-3 {
+  width: 202px;
+  height: 200px;
+  background: url(./images/Rectangle\ 49.png);
+  opacity: 1;
+  position: absolute;
+  top: 1202px;
+  left: 946px;
+  overflow: hidden;
+}
+
+.text-pro-3 {
+    top: 1408px;
+    position: absolute;
+    left: 946px;
+    font-family: Ubuntu Mono;
+    font-size: 15px;
+}
+
+.text-pro-1-3 {
+    top:1433px;
+    position: absolute;
+    left: 946px;
+    font-family: Ubuntu Mono;
+    font-size: 15px;
+}
+
+.product-4 {
+  width: 202px;
+  height: 200px;
+  background: url(./images/Rectangle\ 48.png);
+  opacity: 1;
+  position: absolute;
+  top: 1506px;
+  left: 946px;
+  overflow: hidden;
+}
+
+.text-pro-4 {
+    top: 1708px;
+    position: absolute;
+    left: 946px;
+    font-family: Ubuntu Mono;
+    font-size: 15px;
+}
+
+.text-pro-1-4 {
+    top:1732px;
+    position: absolute;
+    left: 946px;
+    font-family: Ubuntu Mono;
+    font-size: 15px;
+}
+
+.product-5 {
+  width: 202px;
+  height: 200px;
+  background: url(./images/Rectangle\ 47.png);
+  opacity: 1;
+  position: absolute;
+  top: 1506px;
+  left: 646px;
+  overflow: hidden;
+}
+
+.text-pro-5 {
+    top: 1708px;
+    position: absolute;
+    left: 646px;
+    font-family: Ubuntu Mono;
+    font-size: 15px;
+}
+
+.text-pro-1-5 {
+    top:1732px;
+    position: absolute;
+    left: 646px;
+    font-family: Ubuntu Mono;
+    font-size: 15px;
+}
+
+.product-6 {
+  width: 202px;
+  height: 200px;
+  background: url(./images/Rectangle\ 46.png);
+  opacity: 1;
+  position: absolute;
+  top: 1506px;
+  left: 339px;
+  overflow: hidden;
+}
+
+.text-pro-6 {
+  top: 1708px;
+    position: absolute;
+    left: 340px;
+    font-family: Ubuntu Mono;
+    font-size: 15px;
+}
+
+.text-pro-1-6 {
+  top:1732px;
+    position: absolute;
+    left: 340px;
+    font-family: Ubuntu Mono;
+    font-size: 15px;
+}
+
+.product-7 {
+  width: 202px;
+  height: 200px;
+  background: url(./images/Rectangle\ 50.png);
+  opacity: 1;
+  position: absolute;
+  top: 1819px;
+  left: 339px;
+  overflow: hidden;
+}
+
+.text-pro-7 {
+  top: 2025px;
+    position: absolute;
+    left: 340px;
+    font-family: Ubuntu Mono;
+    font-size: 15px;
+}
+
+.text-pro-1-7 {
+  top:2050px;
+    position: absolute;
+    left: 340px;
+    font-family: Ubuntu Mono;
+    font-size: 15px;
+}
+
+.product-8 {
+  width: 202px;
+  height: 200px;
+  background: url(./images/Rectangle\ 49.png);
+  opacity: 1;
+  position: absolute;
+  top: 1819px;
+  left: 646px;
+  overflow: hidden;
+}
+
+.text-pro-8 {
+  top: 2025px;
+    position: absolute;
+    left: 646px;
+    font-family: Ubuntu Mono;
+    font-size: 15px;
+}
+
+.text-pro-1-8 {
+  top:2050px;
+    position: absolute;
+    left: 646px;
+    font-family: Ubuntu Mono;
+    font-size: 15px;
+}
+
+.product-9 {
+  width: 202px;
+  height: 200px;
+  background: url(./images/Rectangle\ 47.png);
+  opacity: 1;
+  position: absolute;
+  top: 1819px;
+  left: 946px;
+  overflow: hidden;
+}
+
+.text-pro-9 {
+  top: 2025px;
+    position: absolute;
+    left: 946px;
+    font-family: Ubuntu Mono;
+    font-size: 15px;
+}
+
+.text-pro-1-9 {
+  top:2050px;
+    position: absolute;
+    left: 946px;
+    font-family: Ubuntu Mono;
+    font-size: 15px;
+}
+
+.tex-ofertas {
+  width: 167px;
+    color: white;
+    position: absolute;
+    top: 2470px;
+    left: 559px;
+    font-family: Roboto;
+    font-weight: Bold;
+    font-size: 32px;
+    text-align: center;
+    padding-right: 224px;
+    padding-left: 98px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #DF3415;
+    border: solid #DF3415;
+    border-radius: 40px;
+}
+
+.prOfer-1 {
+  width: 561px;
+  height: 557px;
+  background: url(./images/Rectangle\ 45.png);
+  opacity: 1;
+  position: absolute;
+  top: 2621px;
+  left: 438px;
+  overflow: hidden;
+}
+
+.text-prOfer-1 {
+  top: 3191px;
+    position: absolute;
+    left: 438px;;
+    font-family: Ubuntu Mono;
+    font-size: 25px;
+}
+
+.text-prOfer-1-1 {
+  top: 3219px;
+    position: absolute;
+    left: 438px;
+    font-family: Ubuntu Mono;
+    font-size: 25px;
+}
+
+.prOfer-2 {
+  width: 561px;
+  height: 557px;
+  background: url(./images/Rectangle\ 44.png);
+  opacity: 1;
+  position: absolute;
+  top: 3326px;
+  left: 438px;
+  overflow: hidden;
+}
+
+.text-prOfer-2 {
+  top: 3895px;
+    position: absolute;
+    left: 438px;;
+    font-family: Ubuntu Mono;
+    font-size: 25px;
+}
+
+.text-prOfer-1-2 {
+  top: 3921px;
+    position: absolute;
+    left: 438px;
+    font-family: Ubuntu Mono;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+/* ACÁ EMPIEZA EL TAMAÑO CELULAR!!! */
+
+
+@media only screen and (min-width: 393px) and (max-width: 430px){
+  .v34_312 {
+    
+    display: none;
+
+  }
+  
+  .v34_313 {
+   display: none;
+  }
+  
+  /* ACÁ EMPIEZAN LOS ESTILOS DEL MENÚ */
+  .offcanvas-body {
+    background-color: #039253;
+    font-family: Ubuntu Mono;
+  }
+
+  .navbar-nav .nav-link.active,
+  .navbar-nav .nav-link.show {
+    color: rgba(255, 219, 99, 1);
+    font-size: 20px; 
+  }
+
+  .navbar-toggler {
+    position: absolute;
+    left: 455px;
+  }
+
+  .offcanvas-header {
+    font-family: Ubuntu Mono;
+    color: black;
+    background-color: #039253;
+    font-size: 32px; 
+  }
+
+  .offcanvas-title {
+    font-size: 32px; 
+  }
+
+  .offcanvas-header .btn-close {
+    border: solid black;
+    border-radius: 30px; 
+  }
+
+  .formMenu {
+    border: 1px solid #DF3415;
+    border-radius: 9px; 
+    font-family: Ubuntu Mono;
+    color: #DF3415;
+    background-color: #FFE8A3;
+    padding: 10px; 
+    margin-top: 40px; 
+    margin-left: 50px; 
+    align-items: center;
+    font-size: 18px; 
+    font-weight: bolder;
+  }
+  
+  
+    
+  /* ESTE ES EL TÍTULO GRANDE DE HOME */
+  
+  .v34_531 {
+    width: 400px;
+        top: 309px;
+        left: 110px;
+        font-family: Fredericka the Great;
+        font-size: 36px;
+        color: rgba(223, 52, 21, 1);
+  }
+  .v34_532 {
+    width: 320px;
+        top: 426px;
+        left: 148px;
+        font-family: Abhaya Libre ExtraBold;
+        font-size: 45px;
+  }
+  
+
+  .v34_566 {
+    display: none;
+  }
+
+  .v34_533 {
+      width: 320px;
+      top: 235px;
+      left: 148px;
+      font-family: Abhaya Libre ExtraBold;
+      font-size: 45px;
+  }
+  
+
+  .v34_597 {
+    display: none;
+  }
+  
+  /* ACÁ TERMINA EL TITULO GRANDE DE LA HOME */
+  
+  /* párrafo uno empieza */
+  
+  .v34_272 {
+    width: 246px;
+        top: 743px;
+        left: 307px;
+        font-family: Ubuntu Mono;
+        font-size: 18px;
+  }
+
+  
+  
+  /* ACÁ EMPIEZAN LAS IMÁGENES DE LA HOME */
+  
+  .container {
+    top: 280px; 
+    left: 80px; 
+  }
+
+  .collage {
+    top: -150px;
+    position: absolute;
+    right: 66px;
+  }
+
+  .row {
+    margin-bottom: 10px; 
+  }
+
+  .image-wrapper {
+    width: 253px;
+        height: 357px;
+        margin: 20px;
+    border-radius: 15px; 
+    box-shadow: 0 3px 10px rgba(4, 78, 236, 0.3); 
+    animation: floating 3s infinite alternate ease-in-out;
+  }
+  .image-wrapper5 {
+    display: none;
+  }
+  .image-wrapper4 {
+    display: none;
+  }
+  .image-wrapper3 {
+    display: none;
+  }
+
+  .imga {
+    display: none;
+
+  }
+  .imgb {
+    display: none;
+
+  }
+
+  
+  /* ACÁ EMPIEZAN LOS TEXTOS CON FONDO AMARILLO, SEGUIMOS EN LA HOME */
+  
+  .v34_354 {
+    width: 250px; 
+    top: 2119px;
+    left: 28px;
+    font-size: 20px; 
+  }
+
+  .v34_355 {
+    width: 432px;
+    top: 3019px;
+    left: 124px;
+    font-size: 21px;
+
+  }
+
+  .v34_356 {
+    width: 240px;
+    top: 1479px;
+    left: 206px;
+    font-size: 28px;
+  }
+
+  .v34_361 {
+    width: 70px;
+    top: 2075px;
+    left: 154px;
+    font-size: 17px;
+  }
+
+  .v34_363 {
+    width: 150px; 
+    height: 75px; 
+    top: 2628px;
+    left: 305px;
+  }
+
+  .v34_364 {
+    width: 112px;
+    height: 9px;
+    top: 2660px;
+    left: 447px;
+  }
+
+  .v34_365 {
+    width: 100px;
+    top: 2712px;
+    left: 326px;
+    font-size: 14px;
+  }
+
+  .v34_397 {
+    width: 90px; 
+    top: 2649px;
+    left: 338px;
+    font-size: 22px;
+  }
+
+  .v34_395 {
+    width: 110px; 
+    top: 1984px;
+    left: 240px;
+    font-size: 24px; 
+  }
+
+  .v34_394 {
+    width: 80px;
+    top: 1984px;
+    left: 357px;
+    font-size: 20px;
+    
+  }
+
+  .v34_396 {
+    width: 70px;
+    top: 2040px;
+    left: 154px;
+    font-size: 23px; 
+  }
+
+  .v34_273 {
+    height: 229%;
+        width: 143%;
+        top: 1350px;
+        border-radius: 541px;
+        
+    }
+     
+  .img5 {
+    display: none;
+  }
+
+  .img6 {
+    right: -95px;
+        top: 66px;
+        width: 516px;
+        height: 330px;
+  }
+
+  .img7 {
+    margin-left: 100px;
+    top: -25px;
+    left: -53px;
+    position: absolute;
+    width: 247px;
+    height: auto;
+  }
+
+  .img8 {
+    margin-left: -87.5px;
+    position: absolute;
+    top: 42px;
+    left: -214px;
+    width: 531px;
+  }
+
+  
+  /* ACÁ COMIENZA EL FOOTER */
+  
+  .v34_275 {
+    height: 400px;
+    top: 616%;
+    width: 143%;
+  }
+
+  .v34_276 {
+    top: 646%;
+        font-size: 38px;
+        left: 16px;
+   
+  }
+
+  .v34_279 {
+    display: none;
+  }
+
+  .imgFooter {
+    margin: 30px;
+    margin-left: 179px;
+  }
+}
